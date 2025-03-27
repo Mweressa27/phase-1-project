@@ -1,0 +1,84 @@
+{
+    "books": [
+        {
+            "id": "1",
+            "title": "Dream count",
+            "price": "Ksh. 3,100",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "10"
+        },
+        {
+            "id": "2",
+            "title": "A little life",
+            "price": "Ksh. 2,100",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "15"
+        },
+        {
+            "id": "3",
+            "title": "The brothers Karamazov",
+            "price": "Ksh. 4,200",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "5"
+        },
+        {
+            "id": "4",
+            "title": "A little life",
+            "price": "Ksh. 2,100",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "15"
+        },
+        {
+            "id": "5",
+            "title": "The fishermen",
+            "price": "Ksh. 1,500",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "7"
+        },
+        {
+            "id": "6",
+            "title": "Kintu",
+            "price": "Ksh. 2,200",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "9"
+        },
+        {
+            "id": "7",
+            "title": "Homegoing",
+            "price": "Ksh. 2,200",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "11"
+        },
+        {
+            "id": "8",
+            "title": "A thousand splendid suns",
+            "price": "Ksh. 1,900",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "4"
+        },
+        {
+            "id": "9",
+            "title": "Born a crime",
+            "price": "Ksh. 1,400",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "14"
+        },
+        {
+            "id": "10",
+            "title": "Atomic habits",
+            "price": "Ksh. 650",
+            "description": "",
+            "cover_page": "",
+            "copies_available": "20"
+        }
+    ]
+}
