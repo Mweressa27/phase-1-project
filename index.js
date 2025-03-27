@@ -45,5 +45,30 @@ specialOffersSection.appendChild(bookDiv);
         console.error('Error fetching books data:', error);
     });
 }
+
+function displayOtherBooks() {
+    fetch('http://localhost:3000/books?_start=4&_limit=8')
+    .then(res => res.json())
+    .then(books => {
+        const bestsellerSection = document.querySelector('.bestseller-books')
+        bestsellerSection.innerHTML = '';
+
+        books.forEach(book => {
+            const bestsellerDiv = document.createElement('div');
+            bestsellerDiv.classList.add('bestseller-item');
+            bestsellerDiv.innerHTML = `
+            <img src="${book.cover_page}" alt="${book.title}" width="150px" height="250px">
+                <p>${book.title}</p>
+                <h2>${book.price}</h2>
+                <button>Add to cart</button>
+                <img src="./images/logos/wishlist.png" alt="Wishlist" width="30px" height="30px">
+            `;
+            bestsellerSection.appendChild(bestsellerDiv)
+        })
+    })
+}
+
+
+displayOtherBooks()
 displayBooks ()
 });

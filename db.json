@@ -14,7 +14,7 @@
             "title": "A little life",
             "price": "Ksh. 2,100",
             "rating": "4.0",
-            "cover_page": "./images/book_covers1/a_little_life",
+            "cover_page": "./images/book_covers1/a_little_life.jpg",
             "copies_available": "15",
             "description": "Lives  of four friends living in New York City"
         },
@@ -23,7 +23,7 @@
             "title": "The brothers Karamazov",
             "price": "Ksh. 4,200",
             "description": "Explores faith, morality and free will through the lives of Karamazov brothers",
-            "cover_page": "./images/book_covers1/brothers_karamazov",
+            "cover_page": "./images/book_covers1/brothers_karamazov.jpg",
             "copies_available": "5",
             "rating": "3.5"
         },
@@ -32,7 +32,7 @@
             "title": "To kill a mockingbird",
             "price": "Ksh. 2,100",
             "description": "Follows young Scout Finch as she navigates racism, justice and morality",
-            "cover_page": "./images/book_covers1/to_kill_a_mockingbird",
+            "cover_page": "./images/book_covers1/to_kill_a_mockingbird.jpg",
             "copies_available": "15",
             "rating": "4.0"
         },
@@ -41,17 +41,17 @@
             "title": "The fishermen",
             "price": "Ksh. 1,500",
             "description": "Four brothers whose lives unravel after a prophecy from a madman foretells",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/the_fishermen.jpg",
             "copies_available": "7",
             "rating": "4.5"
 
         },
         {
             "id": "6",
-            "title": "Kintu",
+            "title": "The death of vivek oji",
             "price": "Ksh. 2,200",
             "description": "A multigenerational novel that explores Uganda's history and culture",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/vivek_oji.jpg",
             "copies_available": "9",
             "rating": "5.0"
         },
@@ -60,7 +60,7 @@
             "title": "Homegoing",
             "price": "Ksh. 2,200",
             "description": "Traces the diverging fates of two half-sisters and their descendants across generations",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/homegoing.jpg",
             "copies_available": "11",
             "rating": "5.0"
         },
@@ -69,7 +69,7 @@
             "title": "A thousand splendid suns",
             "price": "Ksh. 1,900",
             "description": "Follows the lives of two Afghan women",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/thousand_splendid_suns.jpg",
             "copies_available": "4",
 "rating":"4.0"
         },
@@ -78,7 +78,7 @@
             "title": "Born a crime",
             "price": "Ksh. 1,400",
             "description": "A memoir about Trevor Noah's childhood",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/born_a_crime.jpg",
             "copies_available": "14",
             "rating": "4.7"
         },
@@ -87,25 +87,25 @@
             "title": "Atomic habits",
             "price": "Ksh. 650",
             "description": "A self-improvement book that explores how small consistent changes can lead to remarkable growth",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/atomic_habits.jpg",
             "copies_available": "20",
             "rating": "3.3"
         },
         {
-            "id": "10",
+            "id": "11",
             "title": "His only wife",
             "price": "Ksh. 650",
             "description": "A contemporary novel about a young Ghanian woman who is pressured into an arranged marriage",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/only_wife.jpg",
             "copies_available": "20",
             "rating": "3.3"
         },
         {
-            "id": "10",
+            "id": "12",
             "title": "Americanah",
             "price": "Ksh. 1,650", 
             "description": "A contemporary novel that explores themes of race, identity, immigration and love",
-            "cover_page": "",
+            "cover_page": "./images/book_covers2/americanah.jpg",
             "copies_available": "20",
             "rating": "3.3"
         }
