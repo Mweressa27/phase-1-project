@@ -5,8 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const imageSources = [
             './images/landing_page_img.jpg',
             './images/landing_page_img1.jpg',
-            './images/landing_page_img2.jpg'
-        ];
+            './images/landing_page_img2.jpg',
+            './images/landing_page_img3.jpg'
+            ];
 
         let currentImageIndex = 0;
 

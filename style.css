@@ -64,13 +64,13 @@ header#header .header2 .logo-img img {
 
 
 header#header .header2 .search {
-    border: 2px solid #d28b3d;
+    border: 1px solid blue;
     width: 30%;
     height: 30px;
     display: flex;
     align-items: center;
     padding-left: 10px;
-}
+    }
 
 header#header .header2 .search img {
     height: 20px;
@@ -102,7 +102,7 @@ header#header .header3 {
 
 header#header .header3 h3 {
     margin: 0;
-    color: white;
+    color: blue;
 }
 
 header#header .header3 img {
@@ -151,8 +151,9 @@ body main.main div.our-offers{
 }
 
 body main.main div.our-offers h1{
-    background-color: #d28b3d;
     text-align: center;
+        color: #d28b3d;
+        font-size: 50px;
    }
 
 body main.main div.our-offers section.special-offers div.special-offers-items h2{
@@ -167,8 +168,8 @@ body main.main div.our-offers section.special-offers div.special-offers-items h2
 body main.main div.our-offers section.special-offers div.special-offers-items button{
     width: 100px;
     height: 30px;
-    background-color: #d28b3d;
-    border: 2px solid #d28b3d;
+    background-color: blue;
+    border: 2px solid blue;
     border-radius: 10%;
 }
 
@@ -182,16 +183,41 @@ body main.main div.bestsellers section.bestseller-books{
     align-content: center;
 }
 
+body main.main div.bestsellers section.bestseller-books div.bestseller-item{
+    margin-top: 10px;
+}
+
 body main.main div.bestsellers h2#bestsellers{
-    background-color: #d28b3d;
-    text-align: center;
+        text-align: center;
+        color: #d28b3d;
+        font-size: 50px;
 }
 
 body main.main div.bestsellers section.bestseller-books div button{
     width: 100px;
     height: 30px;
-    background-color: #d28b3d;
-    border: 2px solid #d28b3d;
+    background-color: blue;
+    border: 2px solid blue;
     border-radius: 10%;
 }
 
+body main.main section.subscription{
+    display: inline-flex;
+    gap: 40px;
+    height: 100px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+body main.main section.contact{
+    display: inline-flex;
+    gap: 40px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
