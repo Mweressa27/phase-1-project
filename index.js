@@ -21,7 +21,7 @@ if (landingImage) {
     }
 
 function displayBooks (){
-    fetch('http://localhost:3000/books?_limit=4')
+    fetch('http://localhost:4000/books?_limit=4')
     .then(res => res.json())
     .then(books => {
         const specialOffersSection = document.querySelector('.special-offers');
@@ -46,8 +46,8 @@ specialOffersSection.appendChild(bookDiv);
     });
 }
 
-function displayOtherBooks() {
-    fetch('http://localhost:3000/books?_start=4&_limit=8')
+ function displayOtherBooks() {
+    fetch('http://localhost:4000/books?_start=4&_limit=8')
     .then(res => res.json())
     .then(books => {
         const bestsellerSection = document.querySelector('.bestseller-books')
@@ -57,17 +57,24 @@ function displayOtherBooks() {
             const bestsellerDiv = document.createElement('div');
             bestsellerDiv.classList.add('bestseller-item');
             bestsellerDiv.innerHTML = `
-            <img src="${book.cover_page}" alt="${book.title}" width="150px" height="250px">
-                <p>${book.title}</p>
-                <h2>${book.price}</h2>
-                <button>Add to cart</button>
-                <img src="./images/logos/wishlist.png" alt="Wishlist" width="30px" height="30px">
-            `;
+            <div class="book-cover">
+                            <img src="${book.cover_page}" alt="${book.title}" width="150px" height="250px">
+                            <div class="book-info">
+                                <p>Rating: ${book.rating}</p>
+                                <p>Copies Available: ${book.copies_available}</p>
+                                <p>${book.description}</p>
+                            </div>
+                        </div>
+                        <p>${book.title}</p>
+                        <h2>${book.price}</h2>
+                        <button>Add to cart</button>
+                        <img src="./images/logos/wishlist.png" alt="Wishlist" width="30px" height="30px">
+                    `;
             bestsellerSection.appendChild(bestsellerDiv)
         })
     })
 }
-
+ // Call the function to display books
 
 displayOtherBooks()
 displayBooks ()
