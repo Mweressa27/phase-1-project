@@ -56,15 +56,8 @@ specialOffersSection.appendChild(bookDiv);
         books.forEach(book => {
             const bestsellerDiv = document.createElement('div');
             bestsellerDiv.classList.add('bestseller-item');
-            bestsellerDiv.innerHTML = `
-            <div class="book-cover">
-                            <img src="${book.cover_page}" alt="${book.title}" width="150px" height="250px">
-                            <div class="book-info">
-                                <p>Rating: ${book.rating}</p>
-                                <p>Copies Available: ${book.copies_available}</p>
-                                <p>${book.description}</p>
-                            </div>
-                        </div>
+            bestsellerDiv.innerHTML = `            
+                        <img src="${book.cover_page}" alt="${book.title}" width="150px" height="250px">                            
                         <p>${book.title}</p>
                         <h2>${book.price}</h2>
                         <button>Add to cart</button>
@@ -74,8 +67,19 @@ specialOffersSection.appendChild(bookDiv);
         })
     })
 }
- // Call the function to display books
+ 
+const searchInput = document.getElementById('search-input')
+searchInput.addEventListener('input', function(){
+    const query = searchInput.value.toLowerCase();
+    const filteredBooks = books.filter(book =>
+        book.title.toLowerCase().includes(query)
+    )
+    displayBooks (filteredBooks)
+})
+
 
 displayOtherBooks()
 displayBooks ()
+
+
 });
