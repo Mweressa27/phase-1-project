@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+ document.addEventListener("DOMContentLoaded", () => {
     const landingImage = document.getElementById('landingImage');
     
     if (landingImage) {

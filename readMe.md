@@ -3,7 +3,8 @@ AUTHOR NAME: Esther Mweresa
 
 PROJECT DESCRIPTION: An application for ordering/purchasing books online from HHM bookshop
 SETUP INSTRUCTIONS:
-LINK TO LIVE SITE:
+LINK TO LIVE SITE: https://Mweressa27.github.io/phase-1-project/
+
 
 COPYRIGHT AND LICENCE INFORMATION: Copyright (c) 2025 HHM Books. All Rights Reserved.
 
