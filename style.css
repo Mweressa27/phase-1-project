@@ -78,18 +78,13 @@ header#header .header2 .search {
 header#header .header2 .search img {
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 header#header .header2 .search form input{
    border: none; 
    height: 20px;
 }
-
-header#header .header2 .search form button{
-    background-color: blue;
-    border-color: blue;
-}
-
 
 /* User Icons */
 header#header .header2 .user-icons img {
